@@ -1,0 +1,34 @@
+
+.backpic {
+    background-image: url("../images/dark-honeycomb.png");
+    height: 500px;
+    position: relative;
+    
+    
+}
+
+
+.about {
+    width: 960px;
+    position: absolute;
+    padding: 50px 50px;
+    margin-left: 200px;
+    margin-top: 85px;
+    background-color: aliceblue;
+    
+}
+
+.biopic {
+    width: 200px;
+    float: left;
+}
+
+.biopara {
+    margin-left: 210px;
+
+}
+
+
+
+
+
