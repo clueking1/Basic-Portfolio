@@ -10,6 +10,8 @@ h1 {
     padding: 20px 20px;
     background-color: rgb(46, 42, 42);
     float: left;
+    position: relative;
+    top: 30px;
     margin-left: 200px;
 }
 
@@ -53,7 +55,7 @@ header {
 
 .backpic {
     background-image: url("../images/dark-honeycomb.png");
-    height: 500px;
+    height: 600px;
     position: relative;
     clear: both;
     
@@ -66,7 +68,7 @@ header {
     position: absolute;
     padding: 50px 50px;
     margin-left: 200px;
-    margin-top: 85px;
+    margin-top: 130px;
     background-color: aliceblue;
     clear: both;
     
@@ -87,7 +89,7 @@ nav {
     width: 30%;
     margin-left: 900px;
     position: absolute;
-    margin-top: 30px;
+    margin-top: 50px;
     
    
 }
@@ -99,19 +101,16 @@ nav li {
 }
 
 nav li a {
-    transition: .5s;
+    
     text-decoration: none;
     border: 2px solid rgb(46, 42, 42);
     padding: 10px;
     color: rgb(46, 42, 42);
-    
+    transition: .5s 
 }
 
 nav li a:hover {
-    background-color: rgb(148, 124, 124);
-    transition: .5s 
-    
+    background-color: rgba(59, 38, 38, 33%);
+   
 }
-
-
 
