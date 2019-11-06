@@ -68,9 +68,11 @@ header {
     position: absolute;
     padding: 50px 50px;
     margin-left: 200px;
-    margin-top: 130px;
+    margin-top: 100px;
     background-color: aliceblue;
     clear: both;
+    height: 300px;
+    overflow: scroll;
     
 }
 
@@ -114,4 +116,36 @@ nav li a:hover {
     transition: .5s;
 }
 
+/* portfolio style */
 
+.img1 {
+    
+    width: 200px;
+    margin-left: 200px;
+    float: left;
+    
+}
+
+.img2 {
+    
+    width: 200px;
+    margin-left: 200px;
+    float: left;
+}
+
+.img3 {
+    margin-left: 400px;
+    width: 200px;
+}
+
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:white;
+    position: relative;
+    text-align: center;
+    bottom: 100px;
+    border: 2px solid  rgb(46, 42, 42);
+    background-color:  rgb(46, 42, 42);
+    padding: 20px 20px;
+
+}
