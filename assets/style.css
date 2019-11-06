@@ -101,16 +101,17 @@ nav li {
 }
 
 nav li a {
-    
+    transition: background-color .5s;
     text-decoration: none;
     border: 2px solid rgb(46, 42, 42);
     padding: 10px;
     color: rgb(46, 42, 42);
-    transition: .5s 
+     
 }
 
 nav li a:hover {
     background-color: rgba(59, 38, 38, 33%);
-   
+    transition: .5s;
 }
+
 
