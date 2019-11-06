@@ -149,3 +149,26 @@ h3 {
     padding: 20px 20px;
 
 }
+
+/* Contact Page Styling */
+
+.form {
+    margin-left: 350px;
+}
+
+.form-control {
+    
+    height: 20px;
+    width: 300px;
+}
+
+.form-message {
+    height: 150px;
+    width: 300px;
+    
+}
+
+.submit {
+    margin-left: 135px;
+   
+}
