@@ -172,3 +172,7 @@ h3 {
     margin-left: 135px;
    
 }
+
+.form input:focus {
+    background-color:#85abcc
+}
